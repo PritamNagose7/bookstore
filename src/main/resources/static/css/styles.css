@@ -1,0 +1,226 @@
+/*
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;  Light gray background for a cleaner look 
+}
+
+header {
+    background-color: #4682B4;  Bootstrap blue 
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width: 48%;
+     Ensures both sections fit side by side 
+}
+
+h1, h2 {
+    color: #343a40;  Dark gray for better readability 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: #fff;  White background for the form 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  Subtle shadow for depth 
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;  Light border for inputs 
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;  Matching button color 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;  Darker shade on hover 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;  White background for list items 
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ced4da;  Light border for list items 
+    border-radius: 8px;  Rounded corners for a softer look 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  Subtle shadow for depth 
+}
+
+li button {
+    margin-left: 5px;
+    background-color: #6c757d;  Bootstrap gray for buttons 
+    color: #fff;
+    border-radius: 4px;
+}
+
+li .update-btn {
+    background-color: #191970;  Bootstrap green for update button 
+}
+
+li .delete-btn {
+    background-color: #800000;  Bootstrap red for delete button 
+}
+
+li .update-btn:hover {
+    background-color: #4682b4;  Darker green on hover 
+}
+
+li .delete-btn:hover {
+    background-color: #c82333;  Darker red on hover 
+}
+*/
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D1D7E0; /* Light gray background for a cleaner look */
+}
+
+header {
+    background-color: #31708E; /* Green header for a fresh look */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 48%;
+    /* Ensures both sections fit side by side */
+}
+
+h1, h2 {
+    color: #343a40; /* Dark gray for better readability */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for the form */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da; /* Light border for inputs */
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0B0C10; /* Matching button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1F2833; /* Darker shade on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff; /* White background for list items */
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ced4da; /* Light border for list items */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+li button {
+    margin-left: 5px;
+    background-color: #6c757d; /* Bootstrap gray for buttons */
+    color: #fff;
+    border-radius: 4px;
+}
+
+li .update-btn {
+    background-color: #2F4454; /* Bootstrap green for update button */
+}
+
+li .delete-btn {
+    background-color: #2E151B; /* Bootstrap red for delete button */
+}
+
+li .update-btn:hover {
+    background-color: #123C69; /* Darker green on hover */
+}
+
+li .delete-btn:hover {
+    background-color: #5D001E; /* Darker red on hover */
+}
